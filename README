@@ -1,0 +1,11 @@
+In order for the client's working, follow below steps:
+
+1. Include JSON Framework available at http://james.newtonking.com/pages/json-net.aspx in your project.
+2. Include below settings in your web.config file:
+  <appSettings>
+    <add key="SiteUrl" value="https://storage.locationlabs.com/api/v1/content"></add>
+    <add key="ConsumerKey" value="<Replace with your consumer Key>"></add>
+    <add key="ConsumerSecret" value="<Replace with your consumer secret>"></add>
+    <add key="OauthToken" value="<Replace with your OAuth token>"></add>
+    <add key="OauthTokenSecret" value="<Replace with your OAuth secret>"></add>
+  </appSettings>
